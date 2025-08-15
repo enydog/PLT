@@ -1,4 +1,4 @@
-# Pure‑Load Tensor (PLT) + Impulse–Response (IR)
+# Pure‑Load Tensor (PLT) Tensor of Training Stress
 
 Endurance training data are usually collapsed into **single scalars** (e.g., TSS). That destroys the **sequence**, the **physiology** (HRV/sleep/resting HR), and the **structure within sessions**. This repo implements the **Pure‑Load Tensor (PLT)** idea and a minimal **impulse–response (IR)** layer to turn daily training into a sequence‑aware, physiology‑aware signal you can visualize and model.
 
