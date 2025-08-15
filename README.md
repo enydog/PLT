@@ -32,7 +32,7 @@ Endurance training data are usually collapsed into **single scalars** (e.g., TSS
 * *Physiological state*: HRV before/after the session and the rate at which HRV returns to baseline,
 * *Order*: if there are two sessions in a day, the second **inherits** the effect of the first via an exponential relaxation of HRV.
 
-Then a single scalar **impulse** is computed per day $u_d = \operatorname{softplus}(\mathbf{\beta}^\top \tilde{\mathbf v}^{\mathrm{PLT}}_d)$ (where $\tilde{\mathbf v}$ is robustly scaled per athlete) and fed to a **Banister‑style IR** filter to obtain a **chronic load** $F_d$ (fitness) comparable in spirit to **CTL**, but physiology‑aware.
+Then a single scalar **impulse** is computed per day .....
 
 > This repo ships **Part I (PLT)**. A future **FMT** variant can preserve full intra‑session waveforms, but is not needed for the minimal pipeline.
 
